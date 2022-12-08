@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/api/v2")
 public class UserController {
     private UserInterfaceService userInterfaceService;
     private SecurityTokenGeneratorInterface securityTokenGeneratorInterface;
@@ -31,11 +32,11 @@ public class UserController {
     public ResponseEntity<?> saveFun(@RequestBody User user){
         return  new ResponseEntity<>(userInterfaceService.saveData(user), HttpStatus.CREATED);
     }
-    @GetMapping("/api/v1/fetchAll")
+    @GetMapping("/fetchAll")
     public ResponseEntity<?> fetchFun(){
         return new ResponseEntity<>(userInterfaceService.getAllUsers(),HttpStatus.FOUND);
     }
-    @GetMapping("/api/v1/fetchById/{userId}")
+    @GetMapping("/fetchById/{userId}")
     public ResponseEntity<?> fetchFunction(@PathVariable int userId){
         return new ResponseEntity<>(userInterfaceService.getByUserId(userId),HttpStatus.FOUND);
     }

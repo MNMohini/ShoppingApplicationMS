@@ -11,6 +11,7 @@ services:
       - 8082:8082
     depends_on:
       - mongoservice
+      - apigateway
 
 
   mongoservice:
@@ -47,6 +48,17 @@ services:
         - 8085:8085
       depends_on:
         - mysqlservice
+        - apigateway
+
+  apigateway:
+    container_name: spring-cloud-api-gateway
+    build: SpringCloudAPIGateway/
+    restart: always
+    networks:
+      - mynetwork
+    ports:
+      - 9000:9000
+
 
 
 networks:

@@ -4,50 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8cb93a-6753-48a9-9213-abc598e49afe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/BejC2S3RestApiMongodbPc1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/exception/CustomerExistsAlready.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/services/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java/com/niit/jdp/BEJ_C2_S3_REST_API_MONGODB_PC_1/services/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/UserAuthenticateServicesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/exceptions/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/filter/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/services/SecurityTokenGeneratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/services/SecurityTokenGeneratorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/services/UserInterfaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="bb8cb93a-6753-48a9-9213-abc598e49afe" name="Changes" comment="microServices">
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/niit/jdp/SpringCloudAPIGateway/SpringCloudApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +52,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ACER/Documents/ShoppingApplicationMS/BEJ_C3_S2_Containerize_Using_Docker_MC_1"
+    "last_opened_file_path": "C:/Users/ACER/Documents/ShoppingApplicationMS"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ACER\Documents\ShoppingApplicationMS\BEJ_C3_S2_Containerize_Using_Docker_MC_1" />
       <recent name="C:\Users\ACER\Documents\ShoppingApplicationMS" />
+      <recent name="C:\Users\ACER\Documents\ShoppingApplicationMS\BEJ_C3_S2_Containerize_Using_Docker_MC_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\Documents\ShoppingApplicationMS" />
@@ -103,9 +74,19 @@
       <option name="presentableId" value="Default" />
       <updated>1670491637333</updated>
     </task>
+    <task id="LOCAL-00001" summary="microServices">
+      <created>1670513033257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670513033257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="microServices" />
+    <option name="LAST_COMMIT_MESSAGE" value="microServices" />
   </component>
 </project>
