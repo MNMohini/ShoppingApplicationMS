@@ -1,0 +1,54 @@
+version: '3.9'
+services:
+  customer-service:
+    image: customer_image
+    container_name: customerauth
+    build: BEJ_C3_S2_Containerize_Using_Docker_MC_1/
+    restart: always
+    networks:
+      - mynetwork
+    ports:
+      - 8082:8082
+    depends_on:
+      - mongoservice
+
+
+  mongoservice:
+    image: mongo:latest
+    container_name: mongoservice
+    networks:
+      - mynetwork
+    ports:
+      - 27017:27017
+
+
+  mysqlservice:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    container_name: mysqlcont1
+    networks:
+      - mynetwork
+    environment:
+      MYSQL_ROOT_PASSWORD: mohini12
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: mohini12
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+
+
+  restservice:
+      image: restimg1
+      container_name: restcontainer1
+      build: bej_c3_s3_dockerize-pc/
+      restart: always
+      networks:
+        - mynetwork
+      ports:
+        - 8085:8085
+      depends_on:
+        - mysqlservice
+
+
+networks:
+  mynetwork:
+    driver: bridge
