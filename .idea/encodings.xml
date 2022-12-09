@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BEJ_C3_S2_Containerize_Using_Docker_MC_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Eureka_Server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/UserAuthenticateServices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/User_Authentication_Docker-compose_MySQL_Practice/src/main/java" charset="UTF-8" />

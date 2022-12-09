@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb8cb93a-6753-48a9-9213-abc598e49afe" name="Changes" comment="microServices">
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/java/com/niit/jdp/SpringCloudAPIGateway/SpringCloudApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="bb8cb93a-6753-48a9-9213-abc598e49afe" name="Changes" comment="apigateway">
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/src/main/java/com/niit/com/Eureka_Server/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka_Server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bej_c3_s3_dockerize-pc/src/main/java/com/niit/jdp/UserAuthenticateServices/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudAPIGateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -81,12 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1670513033257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="apigateway">
+      <created>1670526230636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670526230636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="microServices" />
-    <option name="LAST_COMMIT_MESSAGE" value="microServices" />
+    <MESSAGE value="apigateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="apigateway" />
   </component>
 </project>

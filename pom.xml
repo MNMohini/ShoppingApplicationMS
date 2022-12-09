@@ -25,6 +25,7 @@
     <module>bej_c3_s3_dockerize-pc</module>
     <module>SpringCloudAPIGateway</module>
     <module>BEJ_C3_S2_Containerize_Using_Docker_MC_1</module>
+    <module>Eureka_Server</module>
   </modules>
   <dependencies>
     <dependency>
