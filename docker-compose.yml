@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   customer-service:
-    image: customer_image
+    image: customerimage
     container_name: customerauth
     build: BEJ_C3_S2_Containerize_Using_Docker_MC_1/
     restart: always
@@ -38,17 +38,17 @@ services:
 
 
   restservice:
-      image: restimg1
-      container_name: restcontainer1
-      build: bej_c3_s3_dockerize-pc/
-      restart: always
-      networks:
-        - mynetwork
-      ports:
-        - 8085:8085
-      depends_on:
-        - mysqlservice
-        - apigateway
+    image: restimg
+    container_name: restcontainer1
+    build: bej_c3_s3_dockerize-pc/
+    restart: always
+    networks:
+       - mynetwork
+    ports:
+      - 8085:8085
+    depends_on:
+      - mysqlservice
+      - apigateway
 
   apigateway:
     container_name: spring-cloud-api-gateway
@@ -58,16 +58,17 @@ services:
       - mynetwork
     ports:
       - 9000:9000
-
+    depends_on:
+      - eureka-service
 
   eureka-service:
     container_name: eureka-service
-    build: Eureka_Server/
+    build: EurekaServerDemo/
     restart: always
     networks:
       - mynetwork
     ports:
-      - 8761:8761
+      - 8787:8787
 
 
 networks:

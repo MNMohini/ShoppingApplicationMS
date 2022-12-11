@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka_Server/pom.xml" />
         <option value="$PROJECT_DIR$/UserAuthenticateServices/pom.xml" />
         <option value="$PROJECT_DIR$/bej_c3_s3_dockerize-pc-1/pom.xml" />
       </set>
